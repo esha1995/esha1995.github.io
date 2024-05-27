@@ -41,8 +41,8 @@
     <div class="row">
       <nav class="nav" role="navigation">
         <ul class="nav__items">
-          <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
-          <li class="nav__item"><a href="#clients" class="nav__link">Clients</a></li>
+          <li class="nav__item"><a href="#work" class="nav__link">Catalogue</a></li>
+       <!--  <li class="nav__item"><a href="#clients" class="nav__link">Clients</a></li>-->
           <li class="nav__item">
             <a href="#about" class="nav__link">About</a>
           </li>
@@ -56,11 +56,14 @@
       <div class="header__text">
         <h1 class="heading-primary">
           <!-- Replace the following name with your name -->
-          <span>Syed Ali Hussnain</span>
+          <span>Emil Sønderskov Hansen</span>
         </h1>
         <!-- Put a small paragraph about yourself -->
-        <p>A Web Developer based in Lahore, Pakistan.</p>
-        <a href="#contact" class="btn btn--pink">Get in touch</a>
+        <p>Software developer <br> Audio enthusiast <br> Stud. MSc Sound and Music Computing <br> Stud. developer at Multisensory Experience Lab</p>
+        <h3>My project catalogue</h3>
+        <a href="#semester" class="btn btn--pink">Semester projects</a>        
+        <a href="#workprojects" class="btn btn--pink">Work projects</a>
+        <a href="#dspprojects" class="btn btn--pink">DSP projects</a>
       </div>
     </div>
   </header>
@@ -68,38 +71,44 @@
   <main role="main">
 
     <!-- ***** Work ***** -->
-
-    <section class="work" id="work">
+    <section class="work" id="semester">
       <div class="row">
-        <h2>My Work</h2>
+
+        <h2>Semester projects</h2>
         <div class="work__boxes">
 
           <!-- Each div with the work__box class is a project. -->
 
           <div class="work__box">
             <div class="work__text">
-              <h3>Portfolio Template</h3>
+              <h3>Master Thesis</h3>
               <p>
-                A free Open Source Portfolio for anyone to use for free.
+                The thesis explored the application of virtual reality (VR)
+                to enhance acoustic awareness among school teachers, focusing on the simulation of classroom acoustics within an
+                interactive virtual environment (VE). Furthermore, a real-time hearing loss simulator was developed in C++, to experience the decreased speech intelligibility of a hearing imparied individual. 
+                The application was developed through an iterative provess 
+                and the effectiveness of the final prototype was evaluated
+                through a series of tests conducted with school teachers.
               </p>
-              <ul class="work__list">
-                <li>HTML</li>
-                <li>SCSS</li>
-                <li>JavaScript</li>
-                <li>Parcel</li>
-              </ul>
-
+              
+              <h4>Links and source code: </h4>
               <div class="work__links">
-                <a href="https://nisar.surge.sh" target="_blank" class="link__text">
-                  Visit Site <span>&rarr;</span>
+
+                <a href="./Reports/master_thesis.pdf"download target="_blank" class="link__text">
+                  Download report<span>&rarr;</span>
                 </a>
-                <a href="https://github.com/nisarhassan12/portfolio" title="View Source Code" target="_blank">
+                <a href="https://github.com/esha1995/Master-Thesis" title="View Source Code" target="_blank">
                   <img src="./images/github.svg" class="work__code" alt="GitHub">
                 </a>
+                <a href="https://github.com/esha1995/Hearing-Loss-Simulator" title="View Source Code" target="_blank">
+                  <img src="./images/github.svg" class="work__code" alt="GitHub">
+                </a>
+              
               </div>
             </div>
             <div class="work__image-box">
-              <img src="./images/project-1.png" class="work__image" alt="Project 1" />
+              <img src="./images/acoustic.pdf"  width="700" 
+              height="800" class="work__image" alt="Project 1" />
             </div>
           </div>
 
