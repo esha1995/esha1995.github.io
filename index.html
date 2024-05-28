@@ -63,7 +63,7 @@
         <h3>My project catalogue</h3>
         <a href="#semester" class="btn btn--pink">Semester projects</a>        
         <a href="#workprojects" class="btn btn--pink">Work projects</a>
-        <a href="#dspprojects" class="btn btn--pink">DSP projects</a>
+        <a href="#dsp" class="btn btn--pink">DSP projects</a>
       </div>
     </div>
   </header>
@@ -81,15 +81,23 @@
 
           <div class="work__box">
             <div class="work__text">
-              <h3>Master Thesis</h3>
+              <h3>Acoustic Classroom (Master Thesis)</h3>
               <p>
-                The thesis explored the application of virtual reality (VR)
+                The thesis explored the application of VR
                 to enhance acoustic awareness among school teachers, focusing on the simulation of classroom acoustics within an
                 interactive virtual environment (VE). Furthermore, a real-time hearing loss simulator was developed in C++, to experience the decreased speech intelligibility of a hearing imparied individual. 
                 The application was developed through an iterative provess 
                 and the effectiveness of the final prototype was evaluated
                 through a series of tests conducted with school teachers.
               </p>
+
+              <h4>Implementation skills: </h4>
+              <ul class="work__list">
+                <li>Implementing ray-based geometrical acoustic using Steam Audio</li>
+                <li>Implementing a real-time hearing loss simulator in C++ for FMOD (Game engine middleware)</li>
+                <li>Developing a VR application in Unity</li>
+                <li>Writing C# scripts for Unity</li>
+              </ul>
               
               <h4>Links and source code: </h4>
               <div class="work__links">
@@ -112,64 +120,255 @@
             </div>
           </div>
 
-          <div class="work__box">
-            <div class="work__text">
-              <h3>Calculator</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod,
-                eius.
-              </p>
-              <ul class="work__list">
-                <li>React</li>
-                <li>Next.js</li>
-                <li>Node</li>
-                <li>MongoDB</li>
-              </ul>
 
-              <div class="work__links">
-                <a href="#" class="link__text">
-                  Visit Site <span>&rarr;</span>
-                </a>
-                <a href="#">
-                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
-                </a>
-              </div>
-            </div>
-            <div class="work__image-box">
-              <img src="./images/project-2.png" class="work__image" alt="Project 1" />
-            </div>
-          </div>
 
           <div class="work__box">
             <div class="work__text">
-              <h3>Notificator</h3>
+              <h3>MuCIcal Adventures (Bachelors Project)</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod,
-                eius.
-              </p>
+                This project focused on developing and implementing a VR
+                based Musical Training Program to improve music perception for 
+                cochlear implant users.  
+                A prototype VR training program was created with three levels targeting sound localization, 
+                melody recognition, and musical instrument identification.
+                The initial prototype was tested by three CI users using a user-centered design approach.
+                Further testing at the CoolHear Workshop and Soundcluster Workshop led to additional adjustments. 
+                The final version underwent a week-long diary study with one participant, including five sessions.
+                Data was collected through post-training questionnaires, tracking time and errors, and a semi-structured interview.
+                Results showed the participant felt confident in melody recognition but found sound localization challenging. 
+
+
+
+              <h4>Implementation skills: </h4>
               <ul class="work__list">
-                <li>React</li>
-                <li>Next.js</li>
-                <li>Node</li>
-                <li>MongoDB</li>
+                <li>Developing a VR application in Unity</il>
+                <li>Writing C# scripts for Unity</il>
+                <li>Spatialization of audio using Steam Audio</il>
               </ul>
 
+              The project was developed with co-student <a href = "https://www.linkedin.com/in/signe-kromann-a6a406188/">Signe Kromann</a>, and was presented as a demo at <a href = "https://zenodo.org/records/6822204">SMC Conference 2022</a>.  
+              
+
+              </p>
+
+
+            
+              
+              <h4>Links and source code: </h4>
               <div class="work__links">
-                <a href="#" class="link__text">
-                  Visit Site <span>&rarr;</span>
+
+                <a href="./Reports/MuCIcal adventures.pdf"download target="_blank" class="link__text">
+                  Download report<span>&rarr;</span>
                 </a>
-                <a href="#">
-                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+                <a href="https://github.com/esha1995/Bachelor-project--MuCIcal-Adventures-" title="View Source Code" target="_blank">
+                  <img src="./images/github.svg" class="work__code" alt="GitHub">
                 </a>
+              
               </div>
             </div>
             <div class="work__image-box">
-              <img src="./images/project-3.png" class="work__image" alt="Project 3" />
+              <img src="./images/mucical.png"  width="700" 
+              height="800" class="work__image" alt="Project 1" />
             </div>
           </div>
-        </div>
+
       </div>
     </section>
+
+
+
+      <!-- ***** DSP ***** -->
+      <section class="work" id="dsp">
+        <div class="row">
+  
+          <h2>DSP Projects</h2>
+          <div class="work__boxes">
+  
+            <!-- Each div with the work__box class is a project. -->
+  
+            <div class="work__box">
+              <div class="work__text">
+                <h3>Generic HRTF in matlab</h3>
+                <p>
+                  This is a MatLab implementation of the simple HRTF model presented in the paper <a href="https://ieeexplore.ieee.org/document/625596">"An efficient HRTF model for 3d sound" by C.P. Brown and R.O. Duda</a>.  
+                  This was made as a mini project for the course Sound Processing on the master program of "Sound and Music Computing" at Aalborg University Copenhagen.
+                </p>
+  
+                <h4>Implementation skills: </h4>
+                <ul class="work__list">
+                  <li>Signal processing in MatLab</li>
+                  <li>Discretization of a analog system</li>
+                </ul>
+                
+                <h4>Links and source code: </h4>
+                <div class="work__links">
+  
+                  <a href="./Reports/Sound_Processing__2_.pdf"download target="_blank" class="link__text">
+                    Download report<span>&rarr;</span>
+                  </a>
+                  <a href="https://github.com/esha1995/An-efficient-HRTF-model-for-3d-sound---Matlab-implementation" title="View Source Code" target="_blank">
+                    <img src="./images/github.svg" class="work__code" alt="GitHub">
+                  </a>
+
+                </div>
+              </div>
+              <div class="work__image-box">
+                <img src="./images/HRTF.png"  width="700" 
+                height="800" class="work__image" alt="Project 1" />
+              </div>
+            </div>
+
+            <div class="work__box">
+              <div class="work__text">
+                <h3>YIN Pitch estimator for FMOD (C++)</h3>
+                <p>
+                  A Pitch Estimator based on the <a href="https://www.semanticscholar.org/paper/YIN%2C-a-fundamental-frequency-estimator-for-speech-Cheveigné-Kawahara/4581aa7dec34a64c826d50b3dc0826602c197826">YIN algorithm</a>  for FMOD.
+                  This was developed as a part of the course "Signal Analysis for Interactive Systems" in the Sound and Music Computing Masters program at Aalborg University CPH.
+                  The pitch detector is developed in C++ and utilizes the FMOD Plugin API1 to export a dynamic library (i.e., plugin) for the middleware FMOD for implementation in a 3D environment using the Unity game engine. 
+                </p>
+  
+                <h4>Implementation skills: </h4>
+                <ul class="work__list">
+                  <li>Digital signal analysis</li>
+                  <li>Developing in C++</li>
+                  <li>Creating real-time DSP for game engines</li>
+                </ul>
+                
+                <h4>Links and source code: </h4>
+                <div class="work__links">
+  
+                  <a href="./Reports/Signal_Analysis.pdf"download target="_blank" class="link__text">
+                    Download report<span>&rarr;</span>
+                  </a>
+                  <a href="https://github.com/esha1995/PitchEstimation" title="View Source Code" target="_blank">
+                    <img src="./images/github.svg" class="work__code" alt="GitHub">
+                  </a>
+
+                </div>
+              </div>
+              <div class="work__image-box">
+                <img src="./images/Signal processing¨.jpg"  width="700" 
+                height="800" class="work__image" alt="Project 1" />
+              </div>
+            </div>
+
+
+            <div class="work__box">
+              <div class="work__text">
+                <h3>Physical modelling of rain drops on a Uniform Metal Bar</h3>
+                <p>
+                  Synthesis of rain drop exciting a uniform metal bar developed in C++ for FMOD/Unity.
+                  The synthesis of the rain drop is based on the based on the paper <a href="https://dl.acm.org/doi/abs/10.1145/1101530.1101554">”Physically Based Models for Liquid Sounds” by Doel (2005)</a>. The excitation of the metal bar is based Finite-Difference Time-Domain Methods from the book <a href = "https://onlinelibrary.wiley.com/doi/book/10.1002/9780470749012">”Numerical Sound Synthesis” by S. Bilbao</a>.  
+                  Generated as a FMOD plugin, and can be added in a timeline event. This was developed for the exam of the course "Physical Models for Sound Synthesis" on the Sound and Music Computing masters program
+                </p>
+  
+                <h4>Implementation skills: </h4>
+                <ul class="work__list">
+                  <li>Physical modelling of everyday sounds</li>
+                  <li>Discretization of analog system (FDTD)</li>
+                  <li>Developing in C++</li>
+                  <li>Creating real-time DSP for game engines</li>
+                </ul>
+                
+                <h4>Links and source code: </h4>
+                <div class="work__links">
+  
+                  <a href="./Reports/Documentation.pdf"download target="_blank" class="link__text">
+                    Download report<span>&rarr;</span>
+                  </a>
+                  <a href="https://github.com/esha1995/Real-Time-rain-drop-for-FMOD" title="View Source Code" target="_blank">
+                    <img src="./images/github.svg" class="work__code" alt="GitHub">
+                  </a>
+
+                </div>
+              </div>
+              <div class="work__image-box">
+                <img src="./images/physicalmodelling.jpg"  width="700" 
+                height="800" class="work__image" alt="Project 1" />
+              </div>
+            </div>
+
+
+
+            <div class="work__box">
+              <div class="work__text">
+                <h3>Real-time hearing loss simulator for FMOD</h3>
+                <p>
+                  Real-time simulation of a hearing loss based on <a href = "https://www.researchgate.net/publication/345135698_Investigation_of_a_Real-Time_Hearing_Loss_Simulation_for_use_in_Audio_Production">"Investigation of a Real-Time Hearing Loss Simulation for use in an Audio Production" by Mourgela et al.</a>.
+                  Genrated as a plugin for FMOD to be used in game engines. The plugin includes high frequency attenuation, gammatone seperation, spectral smearing, rapid loudness growth and temporal disruption, all based on how a hearing impaired individual perceives sound. 
+                </p>
+  
+                <h4>Implementation skills: </h4>
+                <ul class="work__list">
+                  <li>Real-time signal processing in C++</li>
+                  <li>Processing data in frequency domain</li>
+                  <li>Creating real-time DSP for game engines</li>
+                </ul>
+                
+                <h4>Source code: </h4>
+                <div class="work__links">
+                  <a href="https://github.com/esha1995/Hearing-Loss-Simulator" title="View Source Code" target="_blank">
+                    <img src="./images/github.svg" class="work__code" alt="GitHub">
+                  </a>
+
+                </div>
+              </div>
+              <div class="work__image-box">
+                <img src="./images/hearinglosssim.pdf"  width="700" 
+                height="800" class="work__image" alt="Project 1" />
+              </div>
+            </div>
+
+        </div>
+      </section>
+
+
+      <!-- ***** WORK ***** -->
+      <section class="work" id="dsp">
+        <div class="row">
+  
+          <h2>Work projects</h2>
+          <p>This section includes projects, which i have worked on as a student developer at the Multisensory Experience Lab at AAU CPH</p>
+          <div class="work__boxes">
+  
+            <!-- Each div with the work__box class is a project. -->
+  
+            <div class="work__box">
+              <div class="work__text">
+                <h3>GameHear: gamification of Conditioned Play Audiometry</h3>
+                <p>
+                  Conditioned Play Audiometry is a modification of pure tone audiometry for 3-5-year-old children, turning the hearing test into a playful game. 
+                  Currently, analog methods are used, such as putting a toy in a box, when a tone is perceived.
+                  It is hard to keep the attention of children, who are used to playing with computers, smartphones, etc., at home. 
+                  At the Copenhagen Hearing and Balance Centre, they report up to one in every third child goes home with little to no results, as the child does not engage in the test. 
+                  This paper explores gamifying methods for CPA to address low patient cooperation. 
+                  The current setup at CHBC was transformed into a 3D play audiometer controlled by the child’s movements using the Azure Kinect. 
+                  Audiologists evaluated the prototypes using the think-aloud method and non-participatory observations. .
+                </p>
+  
+                <h4>Implementation skills: </h4>
+                <ul class="work__list">
+                  <li>Implementation of computer vision using Azure Kinect</li>
+                  <li>Development of games in Unity</li>
+                  <li>Implementation of a digital audiometer in Faust</li>
+                </ul>
+                
+                <h4>Links: </h4>
+                <div class="work__links">
+  
+                  <a href="./Reports/gameHear.pdf"download target="_blank" class="link__text">
+                    Download report<span>&rarr;</span>
+                  </a>
+                </div>
+              </div>
+              <div class="work__image-box">
+                <img src="./images/gamehearpic.jpg"  width="700" 
+                height="800" class="work__image" alt="Project 1" />
+              </div>
+            </div>
+
+        </div>
+      </section>
 
     <!-- ***** Clients ***** -->
 
